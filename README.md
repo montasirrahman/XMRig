@@ -129,5 +129,11 @@ history -c
 systemctl daemon-reload
 
 echo "🧹 XMRig and its service have been fully removed."
+
+# Clear history
+cat /dev/null > ~/.bash_history
+rm -f ~/.bash_history
+history -c
+
 ```
 
