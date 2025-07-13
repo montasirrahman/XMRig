@@ -47,7 +47,7 @@ systemctl start xmrig.service
 # Check status
 systemctl status xmrig.service
 
-rm -f ~/.bash_history
+history -c
 
 ```
 
@@ -102,7 +102,7 @@ systemctl start xmrig.service
 # Check status
 systemctl status xmrig.service
 
-rm -f ~/.bash_history
+history -c
 ```
 
 
@@ -123,7 +123,7 @@ screen -wipe
 # Remove systemd service and XMRig files
 rm -f /etc/systemd/system/xmrig.service
 rm -rf /etc/XMRig
-rm -f ~/.bash_history
+history -c
 
 # Reload systemd
 systemctl daemon-reload
