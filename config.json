@@ -1,17 +1,16 @@
-
 {
     "autosave": true,
-    "donate-level": 5,
     "cpu": true,
     "opencl": false,
     "cuda": false,
     "pools": [
         {
-            "url": "pool.supportxmr.com:443",
-            "user": "42Zr1H1f1ZFCWU3YzgGUnJ4AjjdwnDWcSYgU9abShBvMYKv4Lj8xVFod219f1NTfbqgUrW4oo4sP43FByPB5iF3rQJo1yEz",
-            "rig-id": "vps-1",
+            "url": "gulf.moneroocean.stream:10128",
+            "user": "42Zr1H1f1ZFCWU3YzgGUnJ4AjjdwnDWcSYgU9abShBvMYKv4Lj8xVFod219f1NTfbqgUrW4oo4sP43FByPB5iF3rQJo1yEz.vps-1",
+            "pass": "x",
             "keepalive": true,
-            "tls": true
+            "tls": true,
+            "coin": "monero"
         }
     ]
 }
