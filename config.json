@@ -7,7 +7,7 @@
     "cuda": false,
     "pools": [
         {
-            "url": "xmrpool.eu:9999",
+            "url": "pool.supportxmr.com:443",
             "user": "42Zr1H1f1ZFCWU3YzgGUnJ4AjjdwnDWcSYgU9abShBvMYKv4Lj8xVFod219f1NTfbqgUrW4oo4sP43FByPB5iF3rQJo1yEz",
             "rig-id": "vps-1",
             "keepalive": true,
