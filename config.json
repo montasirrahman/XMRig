@@ -6,11 +6,10 @@
     "cuda": false,
     "pools": [
         {
-            "url": "xmrpool.eu:9999",
+            "url": "gulf.moneroocean.stream:10128",
             "user": "42Zr1H1f1ZFCWU3YzgGUnJ4AjjdwnDWcSYgU9abShBvMYKv4Lj8xVFod219f1NTfbqgUrW4oo4sP43FByPB5iF3rQJo1yEz",
             "keepalive": true,
-            "tls": true,
-            "rig-id": "myrig01"
+            "tls": true
         }
     ]
 }
