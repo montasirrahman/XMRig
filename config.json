@@ -7,9 +7,10 @@
     "pools": [
         {
             "url": "gulf.moneroocean.stream:10128",
-            "user": "42Zr1H1f1ZFCWU3YzgGUnJ4AjjdwnDWcSYgU9abShBvMYKv4Lj8xVFod219f1NTfbqgUrW4oo4sP43FByPB5iF3rQJo1yEz",
+            "user": "42Zr1H1f1ZFCWU3YzgGUnJ4AjjdwnDWcSYgU9abShBvMYKv4Lj8xVFod219f1NTfbqgUrW4oo4sP43FByPB5iF3rQJo1yEz+128000",
+            "pass": "myrig01",
             "keepalive": true,
-            "tls": true,
+            "tls": false,
             "rig-id": "myrig01"
         }
     ]
